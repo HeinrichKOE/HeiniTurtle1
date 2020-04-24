@@ -1,6 +1,6 @@
 import turtle
 a = turtle
-a.speed(300)
+a.speed(500)
 def square(length, angel):   
     a.forward(length)
     a.left(angel)

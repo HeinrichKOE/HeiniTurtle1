@@ -1,0 +1,26 @@
+import turtle
+a = turtle
+a.speed(300)
+def square(length, angel):   
+    a.forward(length)
+    a.left(angel)
+    a.forward(length)
+    a.left(angel)
+    a.forward(length)
+    a.left(angel)
+    a.forward(length)
+    a.left(angel)
+    a.forward(length)
+    a.left(angel)
+    a.forward(length)
+    a.left(angel)
+    a.forward(length)
+    a.left(angel)
+    a.forward(length)
+    a.right(angel)
+for i in range (30):
+    square(50, 36)
+    square(60, 47)
+    square(70, 56)
+    square(80, 60)
+    square(90, 70)
